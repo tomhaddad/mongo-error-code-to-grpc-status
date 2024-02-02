@@ -2,7 +2,7 @@
   "name": "@tomhaddad/mongo-error-code-to-grpc-status",
   "version": "0.0.1",
   "description": "Converts a MongoDB error code to a gRPC status",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

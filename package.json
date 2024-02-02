@@ -1,6 +1,6 @@
 {
   "name": "@tomhaddad/mongo-error-code-to-grpc-status",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Converts a MongoDB error code to a gRPC status",
   "main": "index.js",
   "scripts": {

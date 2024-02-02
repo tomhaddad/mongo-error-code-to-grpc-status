@@ -1,4 +1,4 @@
-export const mongoErrorCodeToGrpcStatus = (errorCode?: string | number) => {
+export const mongoErrorCodeToGrpcStatus = (errorCode?: string | number): number => {
     if (typeof errorCode === 'string') {
         errorCode = parseInt(errorCode);
     }

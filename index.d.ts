@@ -1,0 +1,1 @@
+declare module '@tomhaddad/mongo-error-code-to-grpc-status';

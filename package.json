@@ -1,0 +1,15 @@
+{
+  "name": "mongo-error-code-to-grpc-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@tomhaddad/mongo-error-code-to-grpc-status"
+  },
+  "author": "Tom Haddad",
+  "license": "MIT"
+}

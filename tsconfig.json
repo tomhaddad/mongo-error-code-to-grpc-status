@@ -20,6 +20,7 @@
       "useDefineForClassFields": true,
       "forceConsistentCasingInFileNames": true,
       "skipLibCheck": true,
+      "outDir": "dist"
     },
     "ts-node": {
       "transpileOnly": true,

@@ -1,6 +1,7 @@
-'use strict';
-
-const mongoErrorCodeToGrpcStatus = (errorCode) => {
+export const mongoErrorCodeToGrpcStatus = (errorCode?: string | number) => {
+    if (typeof errorCode === 'string') {
+        errorCode = parseInt(errorCode);
+    }
     switch (errorCode) {
         case 11000: // DuplicateKey
             return 6; // ALREADY_EXISTS
@@ -18,6 +19,3 @@ const mongoErrorCodeToGrpcStatus = (errorCode) => {
             return 13; // INTERNAL
     }
   }
-  
-
-export default mongoErrorCodeToGrpcStatus;
